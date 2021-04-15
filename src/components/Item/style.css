@@ -1,0 +1,39 @@
+.item {
+  display: inline-block;
+  width: calc(100% - 30px);
+  background: #494a54;
+  margin: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.item .type {
+  color: #909090;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.item .info {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.item .info > span {
+  display: inline-block;
+  width: calc(100% / 6);
+  text-align: right;
+}
+
+.item .info > span label {
+  color: #909090;
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.item .update-time {
+  float: right;
+  font-size: 10px;
+  margin-top: 10px;
+}
